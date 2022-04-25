@@ -76,6 +76,8 @@ nav{
 section.hero{
     color: white;
     height: 90vh;
+    animation: moveDown 1s ease-in-out forwards;
+    opacity: 0;
 
     .down-arrow{
         stroke: white;
@@ -248,6 +250,19 @@ h1{
     }
     to{
         transform: translateY(0);
+    }
+}
+
+@keyframes moveDown{
+    from{
+        transform: translateY(-20px);
+
+    }
+
+    to{
+        transform: translateY(0);
+        opacity: 1 ;
+         
     }
 }
 
