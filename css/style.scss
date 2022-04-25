@@ -119,13 +119,24 @@ h1{
     }
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    font-weight: bold;
+
+    a{
+        align-self: center;
+        margin-left: .5em;
+       
+    }
+}
+
 .open-nav{
 
     transform: translateX(0%);
 
 }
-
-
 
 @media only screen and (min-width: 680px){
 
