@@ -128,6 +128,16 @@ h1 {
   line-height: 1.5rem;
 }
 
+.open-nav {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.close-nav {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
 @media only screen and (min-width: 680px) {
   body {
     margin: 1.5em 5em;
